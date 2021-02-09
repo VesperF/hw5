@@ -78,16 +78,6 @@ window.addEventListener('DOMContentLoaded', function() {
   let json = await response.json()
   console.log(json)
 
-  let outputElement = document.querySelector('.container')
-  outputElement.innerHTML = json
-  
-  // document.querySelector('.forecast.rides').innerHTML = ''
-  
-  // for (let j = 0; j < rides.length; i++) {
-  //   let ride = rides[j]
-  //   console.log(ride)
-
-  // ridesArray.insertAdjacentHTML('beforeend', "${html}")
-  
+  renderRides(json)
   })
 })
