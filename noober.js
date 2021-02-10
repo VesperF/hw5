@@ -165,5 +165,3 @@ nooberX.addEventListener('click',async function(event){
     renderRides(nooberXArray)
   }
 )
- 
-  // ridesArray.insertAdjacentHTML('beforeend', "${html}")
